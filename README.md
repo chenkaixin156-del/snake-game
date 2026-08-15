@@ -1,5 +1,7 @@
 # 🐋 DeepSeek 贪吃蛇（Snake Game）
 
+[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-在线试玩-4D6BFE)](https://chenkaixin156-del.github.io/snake-game/)
+
 一个纯 HTML/CSS/JavaScript 实现的深海主题贪吃蛇小游戏，**零依赖、零构建**，双击 `index.html` 即可游玩。
 
 ## 🕹️ 在线试玩
@@ -41,3 +43,4 @@ npx serve snake-game
 - Canvas 2D + `devicePixelRatio` 适配，穿墙采用环面拓扑插值（最短路径渲染）
 - WebAudio API 实时合成音效与背景音乐（振荡器 + 噪声 + 回声延迟链）
 - 高分、穿墙模式、音乐开关均通过 localStorage 持久化
+- 推送到 `main` 分支后由 GitHub Actions 自动部署到 GitHub Pages（`.github/workflows/deploy-pages.yml`）
